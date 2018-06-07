@@ -1,0 +1,6 @@
+[package]
+name = "coinr"
+version = "0.1.0"
+authors = ["Tony Rizko <tony@rizkocircle.com>"]
+
+[dependencies]
