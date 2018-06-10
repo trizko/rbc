@@ -67,8 +67,8 @@ fn main() {
     let recv_addr = String::from("000000000000000000000000000000000000ffff7f000001480c");
     let send_addr = String::from("000000000000000000000000000000000000ffff7f000001480c");
     let nonce = String::from("0000000000000000");
-    let user_agent_len = String::from("1b");
-    let user_agent = String::from("2f426974636f696e2e6f7267204578616d706c653a302e392e332f");
+    let user_agent_len = String::from("0a");
+    let user_agent = String::from(hex::encode("/rbc:alpha/"));
     let start_height = String::from("09000000");
     let relay = String::from("00");
     let payload = proto_version

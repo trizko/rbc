@@ -1,7 +1,7 @@
 [package]
-name = "coinr"
+name = "rbc"
 version = "0.1.0"
-authors = ["Tony Rizko <tony@rizkocircle.com>"]
+authors = ["Tony Rizko"]
 
 [dependencies]
 hex = "0.3.1"
